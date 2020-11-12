@@ -1,0 +1,99 @@
+body{
+    user-select: none;
+  }
+
+img{
+    width: 30vw;
+    /* height: 25vh; */
+}
+table{
+    border-color: black;
+  }
+  table thead tr th,
+table tbody tr td{
+    text-align: center;
+}
+.fa-times{
+  color: rgb(228, 74, 74);
+  font-size: 22px;
+}
+
+.fa-check{
+  color: rgb(116, 248, 116);
+  font-size: 22px;
+}
+
+.row{
+    text-align: center;
+}
+.row h2{
+    margin-top: 2rem;
+    color: #00426A;
+    content: "hii";
+}
+.heading{
+  background-color: #F5AD16;
+  color: #fff;
+  font-size: 20px;
+}
+.heading th{
+  letter-spacing: 1.1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.price td{
+  padding: 2rem 0;
+  color: rgba(0, 0, 0, 0.771);
+  font-size: 25px;
+  font-weight: bold;
+}
+.features{
+  background-color: #00426A;
+}
+
+.features td{
+  color: #fff;
+  font-size: 18px;
+}
+.headings{
+    background-color: #F5AD16;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.headings td p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    align-items: center;
+}
+
+button{
+    border: none;
+    background-color: #F5AD16;
+    font-size: 20px;
+    font-weight: 700;
+    padding: .3rem 1.4rem;
+    margin: 0 0 1rem 0;
+    border-radius: 1px;
+    transition: all .5s;
+  }
+  button:hover{
+    border-radius: 25px;
+    padding: .3rem 1.9rem;
+    background-color: transparent;
+    border: 2px solid #00426A;
+  }
+  button a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+  }
+  button a:hover{
+    text-decoration: none;
+    color: #00426A;
+  }
+  

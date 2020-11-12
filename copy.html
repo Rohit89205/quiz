@@ -1,0 +1,22 @@
+<!DOCTYPE HTML> 
+<html> 
+	<head> 
+		<title>Disable right click on my web page </title> 
+        <style>
+            body{
+                user-select: none;
+            }
+        </style>
+	</head> 
+	<body style = "text-align:center;" onload = "gfg_Run()"> 
+		<!-- <button onclick = "gfg_Run()"> 
+			Disable 
+		</button>  -->
+		<script> 
+			function gfg_Run() { 
+				document.addEventListener('contextmenu', 
+						event => event.preventDefault()); 
+			}		 
+		</script> 
+	</body> 
+</html>					 

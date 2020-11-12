@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price List</title>
+   
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+  body{
+    user-select: none;
+    text-align: center;
+  }
+
+img{
+    width: 30vw;
+    /* height: 25vh; */
+}
+table{
+    border-color: black;
+  }
+  table thead tr th,
+table tbody tr td{
+    text-align: center;
+}
+.fa-times{
+  color: rgb(228, 74, 74);
+  font-size: 22px;
+}
+
+.fa-check{
+  color: rgb(116, 248, 116);
+  font-size: 22px;
+}
+
+.row{
+    text-align: center;
+}
+.row h2{
+    margin-top: 2rem;
+    color: #00426A;
+    content: "hii";
+}
+.heading{
+  background-color: #F5AD16;
+  color: #fff;
+  font-size: 20px;
+}
+.heading th{
+  letter-spacing: 1.1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.price td{
+  padding: 2rem 0;
+  color: rgba(0, 0, 0, 0.771);
+  font-size: 25px;
+  font-weight: bold;
+}
+.features{
+  background-color: #00426A;
+}
+
+.features td{
+  color: #fff;
+  font-size: 18px;
+}
+.headings{
+    background-color: #F5AD16;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.headings td p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    align-items: center;
+}
+
+button{
+    border: none;
+    background-color: #F5AD16;
+    font-size: 20px;
+    font-weight: 700;
+    padding: .3rem 1.4rem;
+    margin: 0 0 1rem 0;
+    border-radius: 1px;
+    transition: all .5s;
+  }
+  button:hover{
+    border-radius: 25px;
+    padding: .3rem 1.9rem;
+    background-color: transparent;
+    border: 2px solid #00426A;
+  }
+  button a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+  }
+  button a:hover{
+    text-decoration: none;
+    color: #00426A;
+  }
+  
+</style>
+</head>
+<body onload = "gfg_Run()">
+     <div class="container">
+        <div class="row"> 
+             <div class="col-lg-12 col-md-12 col-sm-12"> 
+              <img src="http://zootsys.com/wp-content/uploads/2020/08/Zoot-systems-logo-.png">
+              <h2>Content Writing Packages</h2>
+                <table class="table ">
+                    <thead>
+                      <tr class="heading">
+                        <th>Content Writing</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                       
+                      <tr class="price">
+                        <td>Web Content(500 words)</td>
+                        <td>$100</td>
+                        <td>$180</td>
+                        <td>$375</td>
+                        <td>$600</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Website pages
+                          </td>
+                        <td>Upto 5 Pages</td>
+                        <td>Upto 10+ Pages</td>
+                        <td>Upto 25+ Pages</td>
+                        <td>Upto 50+ Pages</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Cost per web content
+                          </td>
+                        <td>$20</td>
+                        <td>$18</td>
+                        <td>$15</td>
+                        <td>$12</td>
+                      </tr>
+                      <tr class="price">
+                        <td>Article(500 words)</td>
+                        <td>$90</td>
+                        <td>$160</td>
+                        <td>$300</td>
+                        <td>$500</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Article writing
+                          </td>
+                        <td>Upto 5 Artilces</td>
+                        <td>Upto 10 Articles</td>
+                        <td>Upto 25 Articles</td>
+                        <td>Upto 50 Articles</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Cost per Article
+                          </td>
+                        <td>$18</td>
+                        <td>$16</td>
+                        <td>$12</td>
+                        <td>$10</td>
+                      </tr>
+                      <tr class="price">
+                        <td>Press Release(500 words)</td>
+                        <td>$175</td>
+                        <td>$300</td>
+                        <td>$700</td>
+                        <td>$1250</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Article writing
+                          </td>
+                        <td>5 Press release</td>
+                        <td>10 Press release</td>
+                        <td>25 Press release</td>
+                        <td>50 Press release</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Cost per Article
+                          </td>
+                        <td>$35</td>
+                        <td>$30</td>
+                        <td>$28</td>
+                        <td>$25</td>
+                      </tr>
+                      <tr class="price">
+                        <td>Blog(300 words)</td>
+                        <td>$75</td>
+                        <td>$120</td>
+                        <td>$250</td>
+                        <td>$400</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Article writing
+                          </td>
+                        <td>Upto 5 Blogs</td>
+                        <td>Upto 10 Blogs</td>
+                        <td>Upto 25 Blogs</td>
+                        <td>Upto 50 Blogs</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Cost per Article
+                          </td>
+                        <td>$15</td>
+                        <td>$12</td>
+                        <td>$10</td>
+                        <td>$8</td>
+                      </tr>
+                      <tr class="heading">
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                      </tr>
+                    </tbody>
+                  </table>
+             </div> 
+        </div>
+    </div>      
+    <button>
+      <a href="http://zootsys.com/digital-marketing-service/">
+        <i class="fa fa-reply"></i>&nbsp;Home</a>
+    </button>
+    <script> 
+			function gfg_Run() { 
+				document.addEventListener('contextmenu', 
+						event => event.preventDefault()); 
+			}		 
+		</script> 
+</body>
+</html>

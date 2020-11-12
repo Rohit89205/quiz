@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price List</title>
+   
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+  body{
+    user-select: none;
+    text-align: center;
+  }
+
+img{
+    width: 30vw;
+    /* height: 25vh; */
+}
+table{
+    border-color: black;
+  }
+  table thead tr th,
+table tbody tr td{
+    text-align: center;
+}
+.fa-times{
+  color: rgb(228, 74, 74);
+  font-size: 22px;
+}
+
+.fa-check{
+  color: rgb(116, 248, 116);
+  font-size: 22px;
+}
+
+.row{
+    text-align: center;
+}
+.row h2{
+    margin-top: 2rem;
+    color: #00426A;
+    content: "hii";
+}
+.heading{
+  background-color: #F5AD16;
+  color: #fff;
+  font-size: 20px;
+}
+.heading th{
+  letter-spacing: 1.1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.price td{
+  padding: 2rem 0;
+  color: rgba(0, 0, 0, 0.771);
+  font-size: 25px;
+  font-weight: bold;
+}
+.features{
+  background-color: #00426A;
+}
+
+.features td{
+  color: #fff;
+  font-size: 18px;
+}
+.headings{
+    background-color: #F5AD16;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.headings td p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    align-items: center;
+}
+
+button{
+    border: none;
+    background-color: #F5AD16;
+    font-size: 20px;
+    font-weight: 700;
+    padding: .3rem 1.4rem;
+    margin: 0 0 1rem 0;
+    border-radius: 1px;
+    transition: all .5s;
+  }
+  button:hover{
+    border-radius: 25px;
+    padding: .3rem 1.9rem;
+    background-color: transparent;
+    border: 2px solid #00426A;
+  }
+  button a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+  }
+  button a:hover{
+    text-decoration: none;
+    color: #00426A;
+  }
+  
+</style>
+</head>
+<body onload = "gfg_Run()">
+     <div class="container">
+        <div class="row"> 
+             <div class="col-lg-12 col-md-12 col-sm-12"> 
+              <img src="http://zootsys.com/wp-content/uploads/2020/08/Zoot-systems-logo-.png">
+              <h2>Digital Marketing Packages</h2>
+                <table class="table ">
+                    <thead>
+                      <tr class="heading">
+                        <th>Features</th>
+                        <th>Starter</th>
+                        <th>Booster</th>
+                        <th>Premium</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                      <tr class="price">
+                        <td>Charges</td>
+                        <td>$2500/mo</td>
+                        <td>$3500/mo</td>
+                        <td>$5000/mo</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Minimum timeframe</td>
+                        <td>6 months</td>
+                        <td>6 months</td>
+                        <td>6 months</td>
+                      </tr>
+                       
+                      <tr class="features">
+                        <td>Minimum Guarantee</td>
+                        <td>20-25%<sup>*</sup></td>
+                        <td>40-45%<sup>*</sup></td>
+                        <td>60-65%<sup>*</sup></td>
+                      </tr>
+                      <tr class="headings">
+                        <td><p>Initial Review & Analysis</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Keyword research</td>
+                        <td>30</td>
+                        <td>50</td>
+                        <td>100</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Duplicate Content Check</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Initial Rank report</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Indepth site analysis</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Broken link check</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Google penalty check</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Backlink/inbound link analysis</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Online reputation check</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Social metric analysis</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>ORM Keywords analysis</td>
+                        <td>for 1 KWs</td>
+                        <td>for 2 KWs</td>
+                        <td>for 5 KWs</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Competition analysis</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Link building strategy</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Google & Bing webmaster tools</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Google analytics integration</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Check mobile first indexing enabled</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Mobile responsiveness check</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>SSL check & recommendations only</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>AMP check</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Site favicon check</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>404 page creation</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>A/B experiment testing check & recommendation</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Heatmap integration & analysis</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Conversion setup</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="headings">
+                        <td><p>Onpage Optimization</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr> 
+                      <tr class="features">
+                        <td>Canonicalization</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Voice search optimization(AI Based)</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Featured snippet optimization</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Content optimization</td>
+                        <td>Upto 30 pages</td>
+                        <td>Upto 50 pages</td>
+                        <td>Upto 100 pages</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Title/Meta tags optimization</td>
+                        <td>Upto 30 pages</td>
+                        <td>Upto 50 pages</td>
+                        <td>Upto 100 pages</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Website Page load Optimization(Desktop)</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Pages H tags optimization</td>
+                        <td>Upto 30 pages</td>
+                        <td>Upto 50 pages</td>
+                        <td>Upto 100 pages</td>
+                      </tr>
+                      <tr class="features">
+                        <td>URL strcuture optimization</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Schema markup implementation</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Robots.txt creation/analysis</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Image/hyperlink optimization</td>
+                        <td>Upt 30 Pages</td>
+                        <td>Upt 50 Pages</td>
+                        <td>Upt 100 Pages</td>
+                      </tr>
+                      <tr class="features">
+                        <td>HTML/XML sitemap</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Internal linking</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Title & meta tags optimization</td>
+                        <td>10 pages</td>
+                        <td>20 pages</td>
+                        <td>30 pages</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Bing webmaster tool setup</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>HTML sitemap creation</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Optimization of robots.txt & google bot crawls</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Footer optimization</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Web usability analysis</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Check header status, meta robots, cache of pages</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Check mobility issues</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Custom 404 page</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>URL structure analysis</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Pagination tag analysis</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>No follow on external links</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>HTML code analysis of target pages</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="headings">
+                        <td><p>Local search Optimization</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Google my business / bing local listing</td>
+                        <td>1 location</td>
+                        <td>2 locations</td>
+                        <td>5 locations</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Nap syndication</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Citation building/local business listing</td>
+                        <td>5</td>
+                        <td>7</td>
+                        <td>10</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Classified submission</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>20</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Coupon distribution</td>
+                        <td>2</td>
+                        <td>5</td>
+                        <td>10</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Cutomer review/testimonial submission</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>20</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Local search engine submission</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>setting geo targeting in google</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>KML sitemap</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Contact address in footer</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Contact address in footer</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="headings">
+                        <td><p>Google adwords</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Monthly Ads spend</td>
+                        <td>upto $200 (included)</td>
+                        <td>upto $400 (included)</td>
+                        <td>upto $600 (included)</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Initial Estimate report</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Landing page recommendation</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Text ads </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Conversion tracking</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Campaign management</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>PLA/local listing ads</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Landing page optimization</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Google adwords management </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Google adwords monthly report</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="headings">
+                        <td><p>Social Media marketing</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Social profile creation/bookmarking</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>15</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Social media profile optimization</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>15</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Facebook account setup</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Facebook cover image</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Facebook timeline design</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Facebook ads management</td>
+                        <td>upto $50(included)</td>
+                        <td>upto $100(included)</td>
+                        <td>upto $150(included)</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Facebook wall updates</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>15</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Facebook call to action</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Facebook page likes</td>
+                        <td>8% to 10%</td>
+                        <td>10% to 12%</td>
+                        <td>13%+</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Linkedin account(personal profile)</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Linkedin profile optimization</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Linkedin company page creation</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Linkedin company page posting</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Linkedin company page images</td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Social media optimization report</td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="headings">
+                        <td><p>Online reputation management</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Phrases targeted </td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>5</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Search position monitored </td>
+                        <td>1 to 10</td>
+                        <td>1 to 20</td>
+                        <td>1 to 30</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Blog posting</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Blog promotion </td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>5</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Company profile creation</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>15</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Social bookmarking</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>15</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Article posting </td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Article promotion</td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>15</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Business listing</td>
+                        <td>5</td>
+                        <td>7</td>
+                        <td>10</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Customer reviews/ratings </td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>10</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Development of micro sites </td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Content promotion </td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>15</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Q&A Posting
+                        </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>ORM monthly report
+                        </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="headings">
+                        <td><p>Content marketing & Link acquistion</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Blog writing                        
+                          </td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Web 2.0 profile creation                       
+                          </td>
+                        <td>5</td>
+                        <td>10</td>
+                        <td>15</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Guest blog posting                   
+                          </td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Guest blog social bookmarking                   
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Forum Posting                   
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Information article writing & submission                 
+                          </td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Article Social Bookmarking                 
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Press release writing & distribution                   
+                          </td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td>1</td>
+                        <td>1</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Premium PR Distribution                   
+                          </td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td><i class="fas fa-times"></i></td>
+                        <td>1</td>
+                      </tr>
+                      <tr class="features">
+                        <td>DOC/PDF submission                  
+                          </td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                      <tr class="features">
+                        <td>PPT Creation + distribution                   
+                          </td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>2</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Image / Pinterest submission                   
+                          </td>
+                        <td>2</td>
+                        <td>5</td>
+                        <td>8</td>
+                      </tr>
+                      <tr class="features">
+                        <td>Infographic creation & distribution                  
+                          </td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>2</td>
+                      </tr>
+                      <tr class="headings">
+                        <td><p>Video marketing</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr class="features">
+                        <td>youtube channel setup/optimization          
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>youtube          
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>podcast creations       
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>podcast submissions       
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>youtube channel creation     
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>youtube keyword research       
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>video title/description optimization      
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>video tags/channel optimization      
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>embedding video in article/blog    
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Social sharing of videos 
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>embedding video in Q&A  
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Video submissions   
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>video marketing monthly report    
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="headings">
+                        <td><p>Blog Optimization</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr class="features">
+                        <td>External blog setup
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Blog optimization
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Blog Rss feed submission   
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Blog directory submission 
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Blog social media integration   
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="headings">
+                        <td><p>Customer Support</p></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Email, Chat, Phone
+                        </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="features">
+                        <td>Project Management Tool
+                          Tracking
+                          </td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                        <td><i class="fas fa-check"></i></td>
+                      </tr>
+                      <tr class="heading">
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                      </tr>
+                    </tbody>
+                  </table>
+             </div> 
+        </div>
+    </div>      
+    <button>
+      <a href="http://zootsys.com/digital-marketing-service/">
+        <i class="fa fa-reply"></i>&nbsp;Home</a>
+    </button>
+    <script> 
+			function gfg_Run() { 
+				document.addEventListener('contextmenu', 
+						event => event.preventDefault()); 
+			}		 
+		</script> 
+</body>
+</html>
